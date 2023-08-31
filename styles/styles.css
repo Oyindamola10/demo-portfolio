@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*background-color: aquamarine;*/
+    background-color: #23263A;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+header{
+    padding: 28px 98px;
+    background-color: #1f2235;
+    width: 100%;
+    position: fixed;
+
+}
+
+.horizontal {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+}
+
+.brand img{
+       width: 130px;
+}
+
+.navItem{
+    list-style: none;
+    margin: 0 18px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navItem a:hover{
+    color: #ff4a57;
+}
+
+section{
+    padding: 98px 68px;
+}
+
+#home{
+    background-color: #24263b
+}
+
+.sectionimg img{
+    width: 100%;
+    height: 600px;
+}
+
+.socialBtn i{
+    font-size: 18px;
+    color: #fff;
+    background-color: #24263b;
+    margin: 0 12px;
+    padding: 12px;
+    border-radius: 50%;
+    border: 3px solid #ff4a57;
+}
+
+.textcontent{
+    margin-top: 98px;
+    color: #fff;
+}
+
+.textcontent{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 28px 18px 28px 12px;
+}
+
+.textcontent p{
+    font-size: 28px;
+    font-weight: 600;
+    width: 700px;
+    margin: 0 18px 28px 12px;
+}
+
+.socialBtn i:hover{
+    background-color: #ff4a57;
+}
+
+.btn{
+    padding: 12px 38px;
+    margin: 0 12px;
+    background-color: #ff4a57;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+
+.hireBtn{
+    background-color: #1f2235;
+    border: 3px solid #ff4a57;
+}
+
+.hireBtn:hover{
+    background-color: #ff4a57;
+    color: #fff;
+}
+
+
+
