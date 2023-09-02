@@ -23,6 +23,7 @@ header{
       display: flex;
       flex-direction: row;
       justify-content: space-between;
+
 }
 
 .brand img{
@@ -55,7 +56,7 @@ section{
 
 .sectionimg img{
     width: 100%;
-    height: 600px;
+    height: 500px;
 }
 
 .socialBtn i{
@@ -112,6 +113,102 @@ section{
     background-color: #ff4a57;
     color: #fff;
 }
+
+#aboutText p{
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.sectionTitle{
+    font-size: 28px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#sectionHead{
+    font-size: 60px;
+    padding-left: 15px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#aboutHead p {
+    font-size: 18px;
+    padding-left: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.serviceContent{
+    text-align: center;
+}
+    
+.serviceContent p{
+    color: #ff4a57;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.serviceContent h4{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 50px;
+
+}
+
+.serviceContent p2{
+    color: #fff;
+}
+
+.parentBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.parentBox :hover{
+    background-color: #ff4a57;
+    color: #fff;
+}
+
+.box{
+    padding: 30px 30px;
+    background-color: #242639;
+    margin: 7px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+p{
+    color: #fff;
+}
+
+.box i{
+    color: #ff4a57;
+    font-size: 40px;
+}
+
+.space{
+    padding: 5px 0px;
+}
+
+.rectangle{
+    width: 50px;
+    height: 2px;
+    border-radius: 5px;
+    background-color: #ff4a57;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
 
 
 
